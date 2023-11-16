@@ -1,4 +1,3 @@
-Test
 # Prototypage d'un robot de surveillance
 
 ## Présentation de l'équipe:
@@ -67,7 +66,25 @@ Nous allons vous expliquer comment lancer le projet
 
 ### Sur un ordinateur avec ros2 humble ou foxy
 
+- Clonez ce repo
+- Dans un terminal, placez vous avant le src
+- source /opt/ros/ROSDISTRIBUTION/setup.bash
+- export ROS_DOMAIN_ID=2
+- export ROS_LOCALHOST_ONLY=0
+- colcon build --packages-select turtlebot_control
+- source install/setup.bash
+- ros2 launch turtlebot_control triton_launch.py
+
 ### Sur la turtlebot kobuki 4 avec une distribution foxy
+
+- Clonez ce repo
+- Dans un terminal, placez vous avant le src
+- source /opt/ros/foxy/setup.bash
+- export ROS_DOMAIN_ID=2
+- export ROS_LOCALHOST_ONLY=0
+- colcon build
+- source install/setup.bash
+
 
 ### Lancer l'application
 TODO Axel
