@@ -45,6 +45,7 @@ Un capteur de distance ToF, avec une sensibilité d'environ 1 mètre est aussi c
 
 ### Le mode manuel
 
+Mode lancé par défaut.
 Le mode manuel permet de contrôler le robot à l'aide d'un volant Logitech G29 et de son pédalier.
 La pédale de droite permet d'avancer tandis que celle de gauche permet de reculer (appuyer sur les deux pédales en même temps ne fait rien car l'action des deux pédales se compense).
 La pédale du centre ne sert à rien.
@@ -61,10 +62,14 @@ Nous avons mappé le contrôle de nos 2 dynamixels sur la croix directionnelle d
 
 ## Procédure de lancement du projet
 
+Nous allons vous expliquer comment lancer le projet
+
 ### Sur un ordinateur avec ros2 humble ou foxy
 
-### Sur la turtlebot 4 
+### Sur la turtlebot kobuki 4 avec une distribution foxy
 
+### Lancer l'application
+TODO Axel
 
 
 
