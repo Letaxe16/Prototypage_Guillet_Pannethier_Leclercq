@@ -26,6 +26,7 @@ Ainsi que les technologies suivantes:
 
 ### Récapitulatif des communications Hardware : 
 
+![alt text](https://github.com/Letaxe16/Prototypage_Guillet_Pannethier_Leclercq/blob/main/hardware_graph.png)
 
 ### Achitechture ROS : 
 
