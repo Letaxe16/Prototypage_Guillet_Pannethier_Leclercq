@@ -10,7 +10,7 @@ Nous avons réalisé ce projet de prototypage en trinôme, les membres de l'équ
 
 ## Objectifs:
 
-Le but de ce projet de 20h était de prototyper un robot de surveillance en utilisant un TurtleBot comme base. Au cours de ce projet nous devions aussi utiliser le matériel suivant:
+Notre projet de 20h était de prototyper un robot de surveillance en utilisant un Kobuki TurtleBot comme base. Au cours de ce projet nous devions aussi utiliser le matériel suivant:
 
 - Servomoteur dynamixel AX-12
 - 1 capteur de proximité (sharp, ToF…)
@@ -18,11 +18,15 @@ Le but de ce projet de 20h était de prototyper un robot de surveillance en util
   
 Ainsi que les technologies suivantes:
 
-- ROS (en Python)
+- ROS2 (en Python)
 - Langage Arduino
 - BLE (Bluetooth Low Energy)
 - Application smartphone (MIT App Inventor)
 - Impression 3D
+
+## Ce que nous avons fait:
+
+### En résumé
 
 Nous avons créé un robot de surveillance avec deux modes de fonctionnement: 
 
@@ -39,6 +43,21 @@ Nous avons créé une application mobile avec le retour caméra du robot, permet
 
 Un capteur de distance ToF, avec une sensibilité d'environ 1 mètre est aussi connecté à l'ESP 32, ce capteur est crucial dans le mode automatique puisqu'il permet au robot de tourner automatiquement à droite lorsqu'il détecte un obstacle.
 
+### Le mode manuel
+
+Le mode manuel permet de contrôler le robot à l'aide d'un volant Logitech G29 et de son pédalier.
+La pédale de droite permet d'avancer tandis que celle de gauche permet de reculer (appuyer sur les deux pédales en même temps ne fait rien car l'action des deux pédales se compense).
+La pédale du centre ne sert à rien.
+
+### Le mode automatique
+
+En déclenchant le mode automatique via l'application, le robot suit un schéma basique: à chaque détection par le tof d'un obstacle à 60 cm ou moins, le robot s'arrête, tourne d'environ 90° sur la droite, puis reprend sa course après une légère pause.
+
+Ce mode est pour l'instant très limité puisque l'on tourne à droite et pas forcément précisément à 90°. Il pourrait être améliorer en implémentant une centrale inertielle qui nous permettrait de mesurer très précisément l'angle de notre robot.  
+
+### Commande de l'axe de la caméra
+
+Nous avons mappé le contrôle de nos 2 dynamixels sur la croix directionnelle de notre volant logitech G29, ainsi nous pouvons en plus de l'application, régler manuellement l'orientation droite gauche et haut bas de notre caméra.
 
 
 
@@ -49,9 +68,6 @@ Un capteur de distance ToF, avec une sensibilité d'environ 1 mètre est aussi c
 
 
 
-
-
-
-[Cliquez ici pour voir le robot fonctionné](U)
+[Cliquez ici pour voir le robot fonctionner](U)
 
 
