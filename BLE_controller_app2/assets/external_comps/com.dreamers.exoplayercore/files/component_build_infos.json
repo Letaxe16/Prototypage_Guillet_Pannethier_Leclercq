@@ -1,0 +1,1 @@
+[{"assets":[],"activities":[],"permissions":["android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.INTERNET","android.permission.ACCESS_NETWORK_STATE","android.permission.WAKE_LOCK","android.permission.MODIFY_AUDIO_SETTINGS"],"type":"com.dreamers.exoplayercore.ExoplayerCore","androidMinSdk":[21]}]
