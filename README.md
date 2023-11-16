@@ -59,6 +59,12 @@ Ce mode est pour l'instant très limité puisque l'on tourne à droite et pas fo
 
 Nous avons mappé le contrôle de nos 2 dynamixels sur la croix directionnelle de notre volant logitech G29, ainsi nous pouvons en plus de l'application, régler manuellement l'orientation droite gauche et haut bas de notre caméra.
 
+## Procédure de lancement du projet
+
+### Sur un ordinateur avec ros2 humble ou foxy
+
+### Sur la turtlebot 4 
+
 
 
 
