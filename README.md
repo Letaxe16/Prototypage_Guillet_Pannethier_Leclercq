@@ -24,6 +24,13 @@ Ainsi que les technologies suivantes:
 - Application smartphone (MIT App Inventor)
 - Impression 3D
 
+### Récapitulatif des communications Hardware : 
+
+
+### Achitechture ROS : 
+
+![alt text](https://github.com/Letaxe16/Prototypage_Guillet_Pannethier_Leclercq/blob/main/graph.png)
+
 ## Ce que nous avons fait:
 
 ### En résumé
@@ -96,16 +103,14 @@ Nous avons ici créée trop de package par rapport à ce que l'on avait, une bon
 
 ### Lancer l'application
 
-Pour lancer l'app sur MIT Inventor app, cliquez sur "Projects", puis sur "Import project from my computer" et sélectionner l'application sur ce repo git.
+Pour lancer l'app sur MIT Inventor app, il faut d'abord télécharger l'application "MIT AI2 Companion" sur téléphone. Sur l'ordinateur, cliquez sur "Projects", puis sur "Import project from my computer" et sélectionner l'application "BLE_controller_app2" sur ce repo git. Allez ensuite dans "Connect" puis cliquez "AI Companion". Sur l'application associée sur le téléphone, scannez le QR code qui s'affiche pour charger l'application. Sur l'app, vous pouvez voir:
 
-
-### Achitechture ROS : 
-
-![alt text](https://github.com/Letaxe16/Prototypage_Guillet_Pannethier_Leclercq/blob/main/graph.png)
-
-
-
-
+- Un retour caméra connecter via une connexion wifi
+- Un bouton de connexion / déconnexion au BLE
+- Une commande d'angle envoyée à la caméra
+- Un switch permettant de changer de mode (automatique / manuel)
+- Une commande de vitesse
+- 
 
 [Cliquez ici pour voir le robot fonctionner](U)
 
