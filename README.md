@@ -95,7 +95,8 @@ Nous allons vous expliquer comment lancer le projet
 Nous avons ici créée trop de package par rapport à ce que l'on avait, une bonne pratique aurait été de créé un seul package avec plusieurs nodes.
 
 ### Lancer l'application
-TODO Axel
+
+Pour lancer l'app sur MIT Inventor app, cliquez sur "Projects", puis sur "Import project from my computer" et sélectionner l'application sur ce repo git.
 
 
 ### Achitechture ROS : 
