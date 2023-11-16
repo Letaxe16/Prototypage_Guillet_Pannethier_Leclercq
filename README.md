@@ -84,7 +84,15 @@ Nous allons vous expliquer comment lancer le projet
 - export ROS_LOCALHOST_ONLY=0
 - colcon build
 - source install/setup.bash
+- Ouvrez 6 autres terminaux, pensez à exporter le ROS_DOMAIN_ID, le LOCALHOST_ONLY et à sourcer install/setup.bash après vous être rendu avant le dossier src
+- Dans le terminal 1: ros2 launch kobuki_node kobuki_node-launch.py
+- Dans le terminal 2: ros2 run camera_send camera_send
+- Dans le terminal 3: ros2 run camera_control camera_control
+- Dans le terminal 4: ros2 run dynamixel dynamixelControl
+- Dans le terminal 5: ros2 run dynamixel_sdk_examples read_write_node 
+- Dans le terminal 6: ros2 run esp_command read_serial
 
+Nous avons ici créée trop de package par rapport à ce que l'on avait, une bonne pratique aurait été de créé un seul package avec plusieurs nodes.
 
 ### Lancer l'application
 TODO Axel
