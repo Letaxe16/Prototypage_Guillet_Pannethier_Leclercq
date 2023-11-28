@@ -113,7 +113,7 @@ Pour lancer l'app sur MIT Inventor app, il faut d'abord télécharger l'applicat
 - Une commande de vitesse
   
 
-[Cliquez ici pour voir le robot fonctionner](U)
+[Cliquez ici pour voir le robot fonctionner](https://www.youtube.com/watch?v=-LsRl1qgzCM)
 
 :+1:
 
