@@ -111,7 +111,8 @@ Pour lancer l'app sur MIT Inventor app, il faut d'abord télécharger l'applicat
 - Une commande d'angle envoyée à la caméra
 - Un switch permettant de changer de mode (automatique / manuel)
 - Une commande de vitesse
-  
+
+[Pour le poster, c'est par ici ;)](https://docs.google.com/presentation/d/1WS9vpEQbbWqnNprn5wOiG1peDnAIBaEEbh5glAAThIg/edit#slide=id.p)
 
 [Cliquez ici pour voir le robot fonctionner](https://www.youtube.com/watch?v=-LsRl1qgzCM)
 
